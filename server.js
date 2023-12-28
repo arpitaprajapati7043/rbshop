@@ -50,8 +50,8 @@ app.use('/user', userRouter);
 app.use('/cart', cartRouter);
 app.use(errorHandler);
 
-const PORT = 8080;
+const PORT = 3000;
 
 app.listen(PORT, () => {
-  console.group('server started on Port 8080');
+  console.group('server started on Port 3000');
 });
