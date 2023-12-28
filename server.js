@@ -13,7 +13,7 @@ const requestLogger = require('./utils/requestLogger');
 const errorHandler = require('./utils/errorHandler');
 
 app.use(cors({
-  origin: 'http://localhost:3000',
+  origin: 'https://rbshop.onrender.com',
   credentials: true
 }))
 
